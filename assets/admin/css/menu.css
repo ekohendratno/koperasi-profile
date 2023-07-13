@@ -1,0 +1,91 @@
+#edit-form {
+	display: none;
+	border: 1px solid #ccc;
+	background: #fcfcfc;
+	border-top: none;
+	padding: 10px 0;
+}
+
+#menu-group-add {
+	display: none;
+}
+
+#dragbox_easymn{
+	padding-left: 0px;
+	list-style: none;
+}
+#dragbox_easymn ul{
+	list-style: none;
+}
+/* nested sortable
+------------------------------------------------------------------------- */
+.ns-helper {
+	border: 1px dashed #eee;
+	background: #fafafa;
+}
+.sortable_easymn {
+	margin: 5px 0;
+}
+.sortable_easymn img {
+	vertical-align: middle;
+}
+#ns-header {
+	padding: 8px 10px;
+	color: #555;
+	background: #f2f2f2;
+	border: none;
+	font-family:"LGB";
+}
+#ns-header div {
+	border: none;
+}
+#ns-footer {
+	text-align: right;
+	margin-top: 10px;
+}
+.ns-row {
+	height: 50px;
+	border: 1px solid #eee;
+	background: #f7f7f7;
+	position: relative;
+}
+.ns-row div {
+	height: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 50px;
+	border-left: 1px solid #eee;
+	overflow: hidden;
+	position: absolute;
+}
+div.ns-title {
+	border: none;
+}
+.ns-actions {
+	width: 100px;
+	right: 80px;
+}
+.ns-orders {
+	width: 50px;
+	right: 10px;
+}
+.ns-class {
+	width: 240px;
+	right: 100px;
+}
+.ns-url {
+	width: 280px;
+	right: 240px;
+}
+.ns-actions a {
+	margin-left: 5px;
+}
+.ns-orders a {
+	margin-left: 5px;
+}
+
+/* error
+------------------------------------------------------------------------- */
+span.error {
+	color: red;
+}
